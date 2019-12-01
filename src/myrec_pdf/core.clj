@@ -4,12 +4,12 @@
 
 (def pdf-fn "9e9ed3_3dc0b7e52b1d4203b7d673dc95224db9.pdf")
 
-(defn -main
-	"I don't do a whole lot ... yet."
-	[& args]
-	(println (str "Hello, World!: " pdf-fn)))
+(defn pdf1 []
+	(print (text/extract pdf-fn))
+	(println ""))
 
+(defn -main [& args]
+	(println (str "pdf: " pdf-fn))
+	(pdf1)
+	)
 
-
-;;(require '[pdfboxing.text :as text])
-;;(text/extract "test/pdfs/hello.pdf")
