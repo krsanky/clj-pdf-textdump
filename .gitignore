@@ -1,6 +1,5 @@
 /target
 /classes
-/checkouts
 profiles.clj
 pom.xml
 pom.xml.asc
@@ -8,5 +7,5 @@ pom.xml.asc
 *.class
 /.lein-*
 /.nrepl-port
-.hgignore
-.hg/
+*.pdf
+
